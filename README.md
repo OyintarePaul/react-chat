@@ -1,4 +1,5 @@
 ## Chat Application with React and Firebase
+https://heybud.netlify.app
 
 This is a chat application powered by React and Firebase. However, it hasn't reached its full potential due to certain limitations. Firstly, I developed the entire application using my smartphone, which is not an ideal setup for such a project. 
 
