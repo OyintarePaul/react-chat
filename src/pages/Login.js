@@ -7,8 +7,8 @@ import { Link, useNavigate } from "https://cdn.skypack.dev/react-router-dom";
 
 import { localSignin } from "../server/users.js";
 function Login(props) {
-  const [email, setEmail] = useState("paulinholapaulinho@gmail.com");
-  const [password, setPassword] = useState("3215478987");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const navigate = useNavigate();
 
