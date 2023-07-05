@@ -11,17 +11,26 @@ font-family: 'Roboto Black', sans-serif;
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    ouline: 1px solid red;
+  box-sizing: border-box;
+  ouline: 1px solid red;
+  font-family: "Raleway", sans-serif;
 }
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-    line-spacing: 1.25;
+  margin: 0;
+  padding: 0;
+  line-spacing: 1.25;
+}
+
+.btn-circle {
+  width: 24px;
+  height: 24px;
+  padding: 5px 5px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
 }
